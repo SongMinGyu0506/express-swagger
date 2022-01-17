@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: swagger test API docs
+  description: test1
+  license:
+    name: MIT
+servers:
+  - url: 'http://localhost:3000/'
+  - url: 'http://localhost:3001/'
+paths:
+  /:
+    get:
+      tags:
+        - /
+      summary: first route
+      description: first route and test 1
+      response:
+        '200':
+          description: success
+components: null

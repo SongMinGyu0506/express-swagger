@@ -1,0 +1,9 @@
+/:
+  get:
+    tags:
+      - /
+    summary: first routess
+    description: first route and test 1
+    response:
+      '200':
+        description: success
